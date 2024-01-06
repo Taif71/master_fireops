@@ -32,4 +32,4 @@ spec:
       port: 80
       targetPort: 3000  # Adjust if your Node.js app is running on a different port
       nodePort: 30001  # Specify the desired nodePort value here
-  type: ClusterIP  # Change to NodePort or ClusterIP based on your requirements
+  type: NodePort  # Change to NodePort or ClusterIP based on your requirements
